@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <pre>
+    ***Check the values true or false***
+    var n1=0;
+    console.log(n1? true: false );
+    <h3>output:false</h3>
+
+    var n2=1;
+    console.log(n2? true: false );
+    <h3>output:true</h3>
+
+    var n3="";
+    console.log(n3? true: false );
+    <h3>output:false</h3>
+
+    var n4="hello";
+    console.log(n4? true: false );
+    <h3>output:true</h3>
+ 
+    var n5=" ";
+    console.log(n5? true: false );
+    <h3>output:true</h3>
+
+    var n6=true;
+    console.log(n6? true: false );
+    <h3>output:true</h3>
+
+    var n7=false;
+    console.log(n7? true: false );
+    <h3>output:false</h3>
+
+    var n8=null;
+    console.log(n8? true: false );
+    <h3>output:false</h3>
+
+    var n9;
+    console.log(n9? true: false );
+    <h3>output:false</h3>
+
+    var n10=NaN;
+    console.log(n10? true: false );
+    <h3>output:false</h3>
+
+    var n11=[];
+    console.log(n11? true: false );
+    <h3>output:true</h3>
+
+    var n12=[1,2];
+    console.log(n12? true: false );
+    <h3>output:true</h3>
+
+    var n13={};
+    console.log(n13? true: false );
+    <h3>output:true</h3>
+
+    var n14={
+        name:"sai",
+        age:25
+      };
+    console.log(n14? true: false );
+    <h3>output:true</h3>
+     
+     ***Type of data***
+     var a=10;
+     console.log(typeof(a));
+     <h3>output:number</h3>
+     
+     var b="sai";
+     console.log(typeof(b));
+     <h3>output:string</h3>
+
+     var c=true;
+     console.log(typeof(c));
+     <h3>output:boolean</h3>
+
+     var d={name:"sai"};
+     console.log(typeof(d));
+     <h3>output:object</h3>
+
+     var e=[1,2];
+     console.log(typeof(e));
+     <h3>output:object</h3>
+
+     var f;
+     console.log(typeof(f));
+     <h3>output:undefined</h3>
+
+     var g=Symbol();
+     console.log(typeof(f));
+     <h3>output:undefined</h3>
+
+     var h=null;
+     console.log(typeof(h));
+     <h3>output:object</h3>
+
+     var i=new Array();
+     console.log(typeof(i));
+     <h3>output:object</h3>
+
+     var j=NaN;
+     console.log(typeof(j));
+     <h3>output:number</h3>
+
+  </pre>
+    <script>
+
+     //Check 0 is true or false
+     var n1=0;
+     console.log(n1? true: false );
+ 
+     //Check 1 is true or false
+     var n2=1;
+     console.log(n2? true: false );
+
+     //Check "" is true or false
+     var n3="";
+     console.log(n3? true: false );
+
+     //Check "hello" is true or false
+     var n4="hello";
+     console.log(n4? true: false );
+
+     //Check " " is true or false
+     var n5=" ";
+     console.log(n5? true: false );
+
+     //Check true is true or false
+     var n6=true;
+     console.log(n6? true: false );
+
+     //Check false is true or false
+     var n7=false;
+     console.log(n7? true: false );
+
+     //Check null is true or false
+     var n8=null;
+     console.log(n8? true: false );
+
+     //Check undefined is true or false
+     var n9;
+     console.log(n9? true: false );
+
+     //Check nan is true or false
+     var n10=NaN;
+     console.log(n10? true: false );
+
+     //Check [] is true or false
+     var n11=[];
+     console.log(n11? true: false );
+
+     //Check [1,2] is true or false
+     var n12=[1,2];
+     console.log(n12? true: false );
+
+      //Check {} is true or false
+      var n13={};
+     console.log(n13? true: false );
+
+      //Check { data } is true or false
+      var n14={
+        name:"sai",
+        age:25
+      };
+     console.log(n14? true: false );
+
+
+     //check which data type
+     var a=10;
+     console.log(typeof(a));
+
+     var b="sai";
+     console.log(typeof(b));
+
+     var c=true;
+     console.log(typeof(c));
+
+     var d={name:"sai"};
+     console.log(typeof(d));
+
+     var e=[1,2];
+     console.log(typeof(e));
+
+     var f;
+     console.log(typeof(f));
+
+     var g=Symbol();
+     console.log(typeof(f));
+
+     var h=null;
+     console.log(typeof(h));
+
+     var i=new Array();
+     console.log(typeof(i));
+
+     var j=NaN;
+     console.log(typeof(j));
+
+     console.log(i instanceof Array);
+
+     //instance of
+     let arr=[1,2,3];
+     console.log(arr instanceof Number);
+     console.log(arr instanceof Array);
+     console.log(arr instanceof Boolean);
+     console.log(arr instanceof Object);
+     
+    var pri={na:'sai'};
+    console.log(pri instanceof Object);
+
+
+    
+
+    
+   
+    
+    
+  
+   
+   
+     
+
+    </script>
+</body>
+</html>
